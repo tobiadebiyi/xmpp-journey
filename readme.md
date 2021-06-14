@@ -7,17 +7,17 @@ docker-compose up
 
 # Create Users
 ```
-docker exec -it ejabberd bin/ejabberdctl register user1 localhost password
+docker exec -it ejabberd bin/ejabberdctl register admin localhost password
 ```
 
 ```
-docker exec -it ejabberd bin/ejabberdctl register user2 localhost password
+docker exec -it ejabberd bin/ejabberdctl register user localhost password
 ```
 
 # Testing client
 Connect each user in separate terminal windows to see messages exchanged:
 ```
-node client/user.js
+node client/admin.js
 ```
 ```
 node client/user.js
