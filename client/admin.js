@@ -17,7 +17,7 @@ xmpp.on("chat", (from, message) => {
 
 function sendMessageEvery(interval) {
   setInterval(() => {
-    xmpp.send("tobi@localhost", `Hi @ ${Date.now()}`)
+    xmpp.send("user@localhost", `Hi @ ${Date.now()}`)
   }, interval);
 }
 

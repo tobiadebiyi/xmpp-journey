@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  ejabberd:
+    container_name: ejabberd
+    image: ejabberd/ecs
+    ports:
+      - "5222:5222"

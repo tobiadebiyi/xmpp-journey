@@ -22,7 +22,7 @@ function sendMessageEvery(interval) {
 }
 
 xmpp.connect({
-  "jid": "tobi@localhost",
+  "jid": "user@localhost",
   "password": "password",
   "host": "localhost",
   "port": "5222"
